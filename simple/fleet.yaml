@@ -4,5 +4,3 @@ helm:
   chart: redis
   releaseName: redis-release
   version: 19.6.0
-  valuesFiles: 
-  - redis-values.yaml
