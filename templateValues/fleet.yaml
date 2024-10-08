@@ -1,0 +1,9 @@
+defaultNamespace: goldilocks
+
+helm:
+  releaseName: goldilocks
+  chart: goldilocks
+  version: 8.0.0
+  repo: https://charts.fairwinds.com/stable
+  valuesFiles:
+  - values.yaml
